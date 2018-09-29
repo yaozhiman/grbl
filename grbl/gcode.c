@@ -359,7 +359,7 @@ uint8_t gc_execute_line(char *line)
           if (value < 0.0) { FAIL(STATUS_NEGATIVE_VALUE); } // [Word value cannot be negative]
         }
         value_words |= bit(word_bit); // Flag to indicate parameter assigned.
-      
+      	break;
     }   
   } 
   // Parsing complete!
